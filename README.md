@@ -25,6 +25,14 @@ The principle technologies that will be used in this implementation (along with 
 This implementation is currently under development.  The run the application as a developer, run the following commands in a CLI within the project's root directory.
 <ol>
     <li>npm install (Installs project dependencies)</li>
+    ```
+    npm install ejs
+    npm install express
+    npm install peer
+    npm install nodemon
+    npm install socket.io
+    npm install uuid
+    ```
     <li>npm run dev (Runs the server)</li>
     <li>peerjs --port 3001 (Runs the peer API)</li>
 </ol>
